@@ -9,7 +9,7 @@ function LanguageSwitcher() {
         i18n.changeLanguage(language).then(() => {
             const html = document.documentElement;
             html.setAttribute('lang', language);
-            document.title = 'Jean Piffaut - ' + t('description_title');
+            document.title = 'Jean Piffaut - ' + t('app_title');
             document.description = t('description');
         });
     };
