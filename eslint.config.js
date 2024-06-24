@@ -1,6 +1,7 @@
 const js = require('@eslint/js');
 const pluginNode = require('eslint-plugin-node');
 const pluginReact = require('eslint-plugin-react');
+const babelParser = require('@babel/eslint-parser');
 
 module.exports = [
     js.configs.recommended,
@@ -19,9 +20,9 @@ module.exports = [
                 describe: 'readonly',
                 it: 'readonly',
                 expect: 'readonly',
-                document: 'readonly', // Añadido
+                document: 'readonly',
             },
-            parser: require.resolve('@babel/eslint-parser'), // Cambiado a @babel/eslint-parser
+            parser: babelParser, // Asegúrate de importar el parser correctamente
             parserOptions: {
                 requireConfigFile: false,
                 babelOptions: {
@@ -31,15 +32,15 @@ module.exports = [
         },
         plugins: {
             node: pluginNode,
-            react: pluginReact, // Añadido
+            react: pluginReact,
         },
         settings: {
             react: {
-                version: 'detect', // Añadido para detectar automáticamente la versión de React
+                version: 'detect',
             },
         },
         rules: {
-            indent: ['error', 2],
+            indent: ['error', 4],
             quotes: ['error', 'single'],
             semi: ['error', 'always'],
             'no-trailing-spaces': 'error',
