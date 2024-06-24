@@ -1,8 +1,8 @@
 {
-  "app_title": "Project template",
-  "app_description": "",
-  "edit_save_1": "Edit ",
-  "edit_save_2": " and save to reload.",
-  "learn_react": "Learn React",
-  "change_language": "Change Language"
+    "app_title": "Project template",
+    "app_description": "",
+    "edit_save_1": "Edit ",
+    "edit_save_2": " and save to reload.",
+    "learn_react": "Learn React",
+    "change_language": "Change Language"
 }
