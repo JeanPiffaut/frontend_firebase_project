@@ -1,64 +1,64 @@
 name: Test execution process
 
 on:
-  pull_request:
-    branches:
-      - master
+    pull_request:
+        branches:
+            - master
 
 jobs:
-  prettier:
-    name: Run Prettier Check
-    runs-on: ubuntu-latest
+    prettier:
+        name: Run Prettier Check
+        runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v3
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '20.x'
+            - name: Set up Node.js
+              uses: actions/setup-node@v3
+              with:
+                  node-version: '20.x'
 
-      - name: Install dependencies
-        run: npm install
+            - name: Install dependencies
+              run: npm install
 
-      - name: Run Prettier Check
-        run: npm run format:check
+            - name: Run Prettier Check
+              run: npm run format:check
 
-  unit-tests:
-    name: Run Unit Tests
-    runs-on: ubuntu-latest
+    unit-tests:
+        name: Run Unit Tests
+        runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v3
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '20.x'
+            - name: Set up Node.js
+              uses: actions/setup-node@v3
+              with:
+                  node-version: '20.x'
 
-      - name: Install dependencies
-        run: npm install
+            - name: Install dependencies
+              run: npm install
 
-      - name: Run Unit Tests
-        run: npm run test:unit
+            - name: Run Unit Tests
+              run: npm run test:unit
 
-  integration-tests:
-    name: Run Integration Tests
-    runs-on: ubuntu-latest
+    integration-tests:
+        name: Run Integration Tests
+        runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v3
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '20.x'
+            - name: Set up Node.js
+              uses: actions/setup-node@v3
+              with:
+                  node-version: '20.x'
 
-      - name: Install dependencies
-        run: npm install
+            - name: Install dependencies
+              run: npm install
 
-      - name: Run Integration Tests
-        run: npm run test:integration
+            - name: Run Integration Tests
+              run: npm run test:integration

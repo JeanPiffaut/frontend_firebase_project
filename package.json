@@ -25,8 +25,7 @@
         "build": "react-scripts build",
         "serve": "firebase emulators:start --only hosting",
         "shell": "firebase functions:shell",
-        "deploy": "firebase deploy --only hosting",
-        "logs": "firebase hosting:log",
+        "deploy": "firebase deploy",
         "test": "jest && npm run format:check",
         "test:e2e": "jest test/e2e",
         "test:unit": "jest test/unit",
@@ -47,9 +46,7 @@
         ]
     },
     "devDependencies": {
-        "@babel/core": "^7.24.7",
-        "@babel/preset-env": "^7.24.7",
-        "@babel/preset-react": "^7.24.7",
+        "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
         "@testing-library/jest-dom": "^6.4.2",
         "@testing-library/react": "^15.0.5",
         "@testing-library/user-event": "^14.5.2",
