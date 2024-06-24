@@ -1,0 +1,36 @@
+{
+    "name": "Plantilla de proyecto",
+    "short_name": "Plantilla",
+    "description": "Plantilla para proyectos con diferentes funciones base.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#fdfcff",
+    "theme_color": "#282c34",
+    "orientation": "any",
+    "icons": [
+        {
+            "src": "./static/media/logo192.png",
+            "sizes": "32x32 192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "./static/media/logo512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "./static/media/meta-image.png",
+            "sizes": "640x320",
+            "type": "image/png"
+        },
+        {
+            "src": "./static/media/meta-image.png",
+            "sizes": "1280x720",
+            "type": "image/png"
+        }
+    ]
+}
