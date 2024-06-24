@@ -20,8 +20,10 @@
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
-        "start:prod": "react-scripts start",
-        "build:prod": "react-scripts build"
+        "serve": "firebase emulators:start --only hosting",
+        "shell": "firebase functions:shell",
+        "deploy": "firebase deploy --only hosting",
+        "logs": "firebase hosting:log"
     },
     "eslintConfig": {
         "extends": [
