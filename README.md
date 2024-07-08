@@ -6,10 +6,10 @@ Para obtener información detallada sobre el proyecto, incluyendo su estructura,
 
 ## Secciones Disponibles en la Wiki
 
--   [Home](https://github.com/JeanPiffaut/backend_firebase_project/wiki)
--   [Configuración](https://github.com/JeanPiffaut/backend_firebase_project/wiki/Configuraci%C3%B3n)
--   [Estructura del Proyecto](https://github.com/JeanPiffaut/backend_firebase_project/wiki/Estructura-del-Proyecto)
--   [Scripts Disponibles](https://github.com/JeanPiffaut/backend_firebase_project/wiki/Scripts-Disponibles)
+-   [Home](https://github.com/JeanPiffaut/frontend_firebase_project/wiki)
+-   [Configuración](https://github.com/JeanPiffaut/frontend_firebase_project/wiki/Configuraci%C3%B3n)
+-   [Estructura del Proyecto](https://github.com/JeanPiffaut/frontend_firebase_project/wiki/Estructura-del-Proyecto)
+-   [Scripts Disponibles](https://github.com/JeanPiffaut/frontend_firebase_project/wiki/Scripts-Disponibles)
 
 # Requisitos
 
