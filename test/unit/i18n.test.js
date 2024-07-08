@@ -2,10 +2,10 @@
  * @jest-environment jsdom
  */
 
-import  '../../src/components/i18n';
+import '../../src/components/i18n';
 import en from '../../src/langs/en.json';
 import es from '../../src/langs/es.json';
-import i18n from "i18next";
+import i18n from 'i18next';
 
 describe('i18n configuration', () => {
     it('should translate text based on selected language', () => {
