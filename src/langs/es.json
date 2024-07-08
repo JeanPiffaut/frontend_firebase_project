@@ -1,8 +1,8 @@
 {
-  "app_title": "Plantilla de proyecto",
-  "app_description": "Plantilla para proyectos con diferentes funciones base.",
-  "edit_save_1": "Edita ",
-  "edit_save_2": " y guarda para recargar.",
-  "learn_react": "Aprende React",
-  "change_language": "Cambiar de idioma"
+    "app_title": "Plantilla de proyecto",
+    "app_description": "Plantilla para proyectos con diferentes funciones base.",
+    "edit_save_1": "Edita ",
+    "edit_save_2": " y guarda para recargar.",
+    "learn_react": "Aprende React",
+    "change_language": "Cambiar de idioma"
 }

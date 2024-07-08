@@ -1,20 +1,25 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const ImageSEO = ({ alt, defaultSrc, sources, width, height, placeholderSrc, style, className, isCritic=false }) => {
+const ImageSEO = ({ alt, defaultSrc, sources, width, height, placeholderSrc, style, className, isCritic = false }) => {
     return (
         <picture>
             {sources.map((source, index) => (
-                <source key={index} srcSet={source.srcSet} type={source.type} media={source.media ? source.media : undefined} />
+                <source
+                    key={index}
+                    srcSet={source.srcSet}
+                    type={source.type}
+                    media={source.media ? source.media : undefined}
+                />
             ))}
             <img
                 src={placeholderSrc}
                 data-src={defaultSrc}
                 alt={alt}
-                loading={!isCritic ? "lazy" : ""}
+                loading={!isCritic ? 'lazy' : ''}
                 width={width}
                 height={height}
-                className={className + " " + (!isCritic ? "lazyload" : "")}
+                className={className + ' ' + (!isCritic ? 'lazyload' : '')}
                 style={style}
             />
         </picture>
@@ -29,7 +34,7 @@ ImageSEO.propTypes = {
             srcSet: PropTypes.string.isRequired,
             type: PropTypes.string.isRequired,
             media: PropTypes.string,
-        })
+        }),
     ).isRequired,
     width: PropTypes.string.isRequired,
     height: PropTypes.string.isRequired,
