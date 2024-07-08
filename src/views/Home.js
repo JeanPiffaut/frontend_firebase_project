@@ -3,12 +3,14 @@ import logo from '../assets/logo192.webp';
 import meta_image from '../assets/meta-image.png';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { t } from 'i18next';
 import ImageSEO from '../components/ImageSEO';
 import MetaTags from '../components/MetaTags';
 import JsonLd from '../components/JsonLd';
+import {useTranslation} from "react-i18next";
 
 function Home() {
+    const { t } = useTranslation();
+
     return (
         <div className="App">
             <JsonLd

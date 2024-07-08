@@ -4,11 +4,8 @@ import './styles/App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './views/Home';
 import { LoadingProvider } from './components/LoadingScreen';
-import { useTranslation } from 'react-i18next';
 
 function App() {
-    useTranslation();
-
     return (
         <LoadingProvider>
             <BrowserRouter>
