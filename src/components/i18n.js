@@ -31,3 +31,5 @@ i18n.use(LanguageDetector)
         const html = document.documentElement;
         html.setAttribute('lang', languageCode);
     });
+
+export default i18n;
