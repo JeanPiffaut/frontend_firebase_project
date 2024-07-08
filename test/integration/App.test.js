@@ -9,7 +9,7 @@ test('renders the Home component when the path is "/"', () => {
     render(
         <HelmetProvider>
             <App />
-        </HelmetProvider>
+        </HelmetProvider>,
     );
 
     // Verifica que el componente Home está presente en el DOM

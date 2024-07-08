@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import ImageSEO from '../components/ImageSEO';
 import MetaTags from '../components/MetaTags';
 import JsonLd from '../components/JsonLd';
-import {useTranslation} from "react-i18next";
+import { useTranslation } from 'react-i18next';
 
 function Home() {
     const { t } = useTranslation();
