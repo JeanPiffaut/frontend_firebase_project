@@ -2,7 +2,7 @@ Este repositorio contiene un proyecto frontend construido con Node.js y React. E
 
 # Tabla de Contenidos
 
-Para obtener información detallada sobre el proyecto, incluyendo su estructura, configuración, ejecución y pruebas, visita la [wiki del proyecto](https://github.com/JeanPiffaut/backend_firebase_project/wiki).
+Para obtener información detallada sobre el proyecto, incluyendo su estructura, configuración, ejecución y pruebas, visita la [wiki del proyecto](https://github.com/JeanPiffaut/frontend_firebase_project/wiki).
 
 ## Secciones Disponibles en la Wiki
 
